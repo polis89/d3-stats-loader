@@ -1,3 +1,5 @@
+import style from './sass/styles.sass'
+
 // require('../sass/styles.sass')
 
 if (process.env.NODE_ENV !== 'production') console.log('DEVELOPMENT MODE')
