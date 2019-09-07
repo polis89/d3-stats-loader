@@ -9,7 +9,8 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Production'
+      title: 'Production',
+      template: 'src/templates/index.hbs'
     })
   ],
   output: {
@@ -19,6 +20,10 @@ module.exports = {
   },
   module: {
     rules: [
+      {
+        test: /\.hbs$/,
+        loader: 'handlebars-loader'
+      }
       // {
       //   test: /\.sass$/,
       //   use: [

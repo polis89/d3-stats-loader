@@ -1,4 +1,3 @@
-// import _ from 'lodash'
 // require('../sass/styles.sass')
 
 if (process.env.NODE_ENV !== 'production') console.log('DEVELOPMENT MODE')
