@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 320 320">
+  <defs>
+    <radialGradient id="radial-gradient" cx="235.246" cy="3.821" r="569.539" gradientTransform="translate(6.39 -50.771) rotate(12.486)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.172" stop-color="#f6f6f6"/>
+      <stop offset="0.442" stop-color="#e0e0e0"/>
+      <stop offset="0.776" stop-color="#bdbbbc"/>
+      <stop offset="1" stop-color="#a19fa0"/>
+    </radialGradient>
+    <filter id="椭圆_8" x="0" y="0" width="318.261" height="318.261" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-2" cx="61.147" cy="204.555" r="316.28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.202" stop-color="#f9f9f9"/>
+      <stop offset="0.458" stop-color="#eae9ea"/>
+      <stop offset="0.742" stop-color="#d1cfd0"/>
+      <stop offset="1" stop-color="#b4b2b3"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="86" cy="103.67" fx="71.23743460575042" r="126.228" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e84b4b"/>
+      <stop offset="0.673" stop-color="#f02c2c"/>
+      <stop offset="0.731" stop-color="#e93737"/>
+      <stop offset="0.854" stop-color="#ac2c2c"/>
+      <stop offset="1" stop-color="#302e2e"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" y1="1" x2="1" y2="0.715" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f53811"/>
+      <stop offset="1" stop-color="#a8321a"/>
+    </linearGradient>
+  </defs>
+  <g class="critical" transform="translate(-2354.786 636.214)">
+    <rect data-name="矩形 35" width="270" height="270" transform="translate(2379 -615)" fill="none"/>
+    <g class="critical-bg" transform="translate(2384.786 -609.214)">
+      <g transform="matrix(1, 0, 0, 1, -30, -27)" filter="url(#椭圆_8)">
+        <circle data-name="椭圆 8" cx="129.13" cy="129.13" r="129.13" transform="translate(30 27)" fill="url(#radial-gradient)"/>
+      </g>
+      <circle data-name="椭圆 9" cx="124.251" cy="124.251" r="124.251" transform="translate(4.879 4.879)" fill="url(#radial-gradient-2)"/>
+      <circle data-name="椭圆 10" cx="97.18" cy="97.18" r="97.18" transform="translate(31.951 31.951)" fill="url(#radial-gradient-3)"/>
+    </g>
+    <g class="MEM_percent-loader" data-name="MEM/percent-loader" transform="translate(2443.607 -542.679)">
+      <g class="percent-loader-bg" transform="translate(0 0)">
+        <path data-name="路径 29" d="M510.226,581.031a10.354,10.354,0,0,1-9.882-7.286,69.748,69.748,0,1,1,133.243,0,10.352,10.352,0,0,1-19.774-6.137,49.043,49.043,0,1,0-93.7,0,10.359,10.359,0,0,1-9.89,13.422Z" transform="translate(-496.767 -482.684)" fill="#fff" stroke="#fff" stroke-width="4"/>
+      </g>
+      <g class="percent-loader" transform="translate(0 0)">
+        <path data-name="路径 35" d="M543.217,544.686a69.754,69.754,0,1,0-135.872,29.06,10.351,10.351,0,1,0,19.772-6.137,49.054,49.054,0,1,1,95.542-20.464,10.3,10.3,0,0,0,3.909,6.934,10.163,10.163,0,0,0,7.6,2.114,10.352,10.352,0,0,0,9.05-11.507Z" transform="translate(-403.767 -482.684)" fill="url(#linear-gradient)"/>
+      </g>
+      <text class="Usage" transform="translate(70.393 98.679)" fill="#fff" font-size="14" font-family="Helvetica"><tspan x="-20.234" y="20">Usage</tspan></text>
+      <text class="Usage-num" data-name="87%" transform="translate(42.393 78.679)" fill="#fff" font-size="28" font-family="Helvetica-Bold, Helvetica" font-weight="700">00%</text>
+    </g>
+  </g>
+</svg>

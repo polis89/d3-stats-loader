@@ -10,7 +10,8 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'Production',
-      template: 'src/templates/index.hbs'
+      template: 'src/templates/index.hbs',
+      inject: 'head'
     })
   ],
   output: {
@@ -34,6 +35,10 @@ module.exports = {
           // Compiles Sass to CSS
           'sass-loader'
         ]
+      },
+      {
+        test: /\.svg$/,
+        loader: 'svg-inline-loader'
       }
     ]
   }
